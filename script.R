@@ -7,9 +7,9 @@ deathData <- read.csv('D:/Dev/R Learning/COVID-19-Stats/sep18Deaths.csv', header
 totalCaseData <- read.csv('D:/Dev/R Learning/COVID-19-Stats/sep18TotalCases.csv', header = TRUE)
 
 # View all data in the IDE to check it is reading properly
-View(caseData, "Case Data")
-View(deathData, "Deaths Data")
-View(totalCaseData, "Total Cumulative Cases")
+##View(caseData, "Case Data")
+##View(deathData, "Deaths Data")
+##View(totalCaseData, "Total Cumulative Cases")
 
 # Graph 1 - Cases Data
 p1 <- ggplot() + geom_line(aes(y = new, x = day), data = caseData)
